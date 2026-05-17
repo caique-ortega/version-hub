@@ -1,0 +1,34 @@
+# dependencies
+node_modules
+
+# builds
+.next
+out
+dist
+build
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment
+.env
+.env.*
+!.env.example
+
+# lock files
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# prisma
+prisma/migrations
+
+# coverage
+coverage
+
+# misc
+.DS_Store
